@@ -1,0 +1,11 @@
+.menu-lists {
+    text-decoration: none;
+    color: black;
+    margin-right: 2em;
+    transition: 0.3s;
+  }
+  .menu-lists:hover,
+  .menu-lists:active {
+    color: red;
+    /* border-bottom: 2px solid red; */
+  }

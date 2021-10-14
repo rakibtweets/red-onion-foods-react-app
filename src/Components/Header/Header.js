@@ -7,7 +7,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
-    <Navbar className="py-3 header-navnar" /* bg="light" variant="light" */>
+    <Navbar sticky="top" className="py-3 header-navnar">
       <Container fluid className=" px-4">
         <Navbar.Brand href="#home">
           <img
